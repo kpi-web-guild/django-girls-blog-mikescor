@@ -1,21 +1,20 @@
 -   repo: git://github.com/pre-commit/pre-commit-hooks
-    sha: master
+    sha: a11d9314b22d8f8c7556443875b731ef05965464
     hooks:
-    - id: trailing-whitespace
-    - id: check-ast
-    - id: check-yaml
-    - id: check-merge-conflict
-    - id: check-docstring-first
-    - id: debug-statements
-    - id: double-quote-string-fixer
-    - id: end-of-file-fixer
-    - id: flake8
-    - id: name-tests-test
-    - id: requirements-txt-fixer
-    - id: trailing-whitespace
+    -   id: trailing-whitespace
+    -   id: check-ast
+    -   id: check-yaml
+    -   id: check-merge-conflict
+    -   id: check-docstring-first
+    -   id: debug-statements
+    -   id: double-quote-string-fixer
+    -   id: end-of-file-fixer
+    -   id: flake8
+    -   id: name-tests-test
+    -   id: requirements-txt-fixer
 
-
+    
 -   repo: git://github.com/FalconSocial/pre-commit-mirrors-pep257
-    sha: master
+    sha: 149e61b7a717945143fe51f010fe1c576e729a9f
     hooks:
-    - id: pep257
+    -   id: pep257
