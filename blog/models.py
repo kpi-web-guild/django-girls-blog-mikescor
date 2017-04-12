@@ -1,8 +1,11 @@
+"""Models for project."""
 from django.db import models
 from django.utils import timezone
 
 
 class Post(models.Model):
+    """Model for post in blog."""
+
     author = models.ForeignKey('auth.User')
     title = models.CharField(max_length=200)
     text = models.TextField()
@@ -10,8 +13,10 @@ class Post(models.Model):
     published_date = models.DateTimeField(blank=True, null=True)
 
     def publish(self):
+        """Publish the post."""
         self.published_date = timezone.now()
         self.save()
 
     def __str__(self):
+        """Return title of the post."""
         return self.title

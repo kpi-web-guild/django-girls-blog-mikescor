@@ -1,1 +1,2 @@
-from django.test import TestCase
+"""Project's tests."""
+# from django.test import TestCase

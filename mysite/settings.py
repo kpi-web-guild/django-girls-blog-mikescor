@@ -1,7 +1,4 @@
-"""
-Django settings for mysite project.
-
-"""
+"""Django settings for mysite project."""
 
 import os
 
