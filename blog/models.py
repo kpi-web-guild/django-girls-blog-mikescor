@@ -18,5 +18,5 @@ class Post(models.Model):
         self.save()
 
     def __str__(self):
-        """Return title of the post."""
+        """Get title of the post."""
         return self.title

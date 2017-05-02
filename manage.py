@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""Manage settings of project."""
+"""App management."""
 
 import os
 import sys

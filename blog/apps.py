@@ -1,8 +1,8 @@
-"""Configure app here."""
+"""Configuring application."""
 from django.apps import AppConfig
 
 
 class BlogConfig(AppConfig):
-    """Configuration."""
+    """Configuration for Blog app."""
 
     name = 'blog'

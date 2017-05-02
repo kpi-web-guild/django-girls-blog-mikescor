@@ -1,11 +1,11 @@
-"""This module keeps the collection of form declarations representing HTML forms."""
+"""Configuration for project's forms."""
 
 from django import forms
 from .models import Post
 
 
 class PostForm(forms.ModelForm):
-    """Form for Post model."""
+    """Configuration for Post form."""
 
     class Meta:
         model = Post

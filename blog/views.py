@@ -1,4 +1,5 @@
-"""All views of project."""
+"""Configuration for views."""
+
 from django.shortcuts import render, get_object_or_404, redirect
 from django.utils import timezone
 from .models import Post
@@ -18,7 +19,7 @@ def post_detail(request, pk):
 
 
 def post_new(request):
-    """Return page with form for adding new post."""
+    """Get page with form for adding new post."""
     if request.method == 'POST':
         form = PostForm(request.POST)
         if form.is_valid():
@@ -33,7 +34,7 @@ def post_new(request):
 
 
 def post_edit(request, pk):
-    """Return page for editing post."""
+    """Get page for editing post."""
     post = get_object_or_404(Post, pk=pk)
     if request.method == 'POST':
         form = PostForm(request.POST, instance=post)
