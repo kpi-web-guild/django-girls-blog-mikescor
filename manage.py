@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""App management."""
+"""Management script for controlling this Django app."""
 
 import os
 import sys

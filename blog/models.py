@@ -4,7 +4,7 @@ from django.utils import timezone
 
 
 class Post(models.Model):
-    """Model for post in blog."""
+    """Represent a post in a blog."""
 
     author = models.ForeignKey('auth.User')
     title = models.CharField(max_length=200)
@@ -18,5 +18,5 @@ class Post(models.Model):
         self.save()
 
     def __str__(self):
-        """Get title of the post."""
+        """Convert an object to a string."""
         return self.title
