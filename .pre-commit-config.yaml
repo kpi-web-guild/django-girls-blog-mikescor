@@ -10,7 +10,7 @@
     -   id: double-quote-string-fixer
     -   id: end-of-file-fixer
     -   id: flake8
-        exclude: migrations
+        exclude: blog/migrations
         args: [--max-line-length=120]
     -   id: name-tests-test
     -   id: requirements-txt-fixer
@@ -20,4 +20,4 @@
     sha: 149e61b7a717945143fe51f010fe1c576e729a9f
     hooks:
     -   id: pep257
-        exclude: migrations
+        exclude: blog/migrations
