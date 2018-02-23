@@ -16,11 +16,11 @@
     -   id: requirements-txt-fixer
 
 -   repo: git://github.com/FalconSocial/pre-commit-mirrors-pep257
-    sha: master
+    sha: f464d46
     hooks:
     -   id: pep257
 
 -   repo: git://github.com/Lucas-C/pre-commit-hooks
-    sha: master
+    sha: 3e5968a57a3720a490ff23b8c1a15d874bbd97fc
     hooks:
     -   id: remove-tabs
